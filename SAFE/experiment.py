@@ -11,7 +11,7 @@ import numpy as np
 
 
 
-os.environ["OPENROUTER_API_KEY"] = "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"
+os.environ["OPENROUTER_API_KEY"] = ""
 api_model = "openrouter/qwen/qwen-2.5-72b-instruct"
 
 mat_deg_unc = ttlm.truth_methods.MatrixDegreeUncertainty()
@@ -98,3 +98,4 @@ for see in range(100):
 
 
     print(f"Saved results to {filename}\n")
+
