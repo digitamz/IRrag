@@ -1,0 +1,9 @@
+python -m pyserini.index.lucene \
+  --collection JsonCollection \
+  --input "data00" \
+  --index "wiki_index" \ 
+  --generator DefaultLuceneDocumentGenerator \
+  --threads 9 \ 
+  --storePositions \
+  --storeDocvectors \
+  --storeRaw
